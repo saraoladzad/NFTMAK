@@ -1,0 +1,167 @@
+@media  (max-width: 576px) {
+    .header{background-image:url('/images/Main2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media  (min-width: 576px) {
+    .header{background-image:url('/images/Main2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media  (max-width: 768px){
+    .boxcard:nth-of-type(2), .boxcard:nth-of-type(3), .boxcard:nth-of-type(4){display: none}
+}
+
+
+@media  (min-width: 768px) {
+    .header{background-image:url('/images/Main2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media  (max-width: 992px) {
+    .desktopnavspan{display: none;}
+    .desktopsmallline{display: none;}
+    .desktopinputholder{display: none;}
+    .desktopinput{display: none;}
+    .desktopnavlist{display: none;}
+    .desktopnavlistitem{display: none;}
+    .desktopnavlistlink{display: none;}
+    .singlecardbtnholdernav{display: none;}
+    .singlecardbtnnav{display: none;}
+}
+
+@media  (min-width: 992px) {
+    .header{background-image:url('/images/Main2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .sectionfieldholder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sectionfield{
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    .navbtn{display: none;}
+
+    .desktopsmallline{
+        width: 4px;
+        height: 31px;
+        background-color: #322C50;
+        border-radius: 3rem;
+        margin-left: 1rem;
+    }
+
+    .desktopinputholder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18rem;
+        height: 4rem;
+        border-radius: 0.5rem;
+        border: 0.1rem dashed #322C50;
+        margin-left: 1rem;
+    }
+
+    .desktopinput{
+        background-color: inherit;
+        width: 90%;
+        height: 90%;
+        color: white;
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .desktopnavlist{
+        display: flex;
+    }
+    
+    .desktopnavlistitem{
+        margin: 1rem;
+    }
+
+    .desktopnavlistlink{
+        color: #D4CDCD;
+        font-family: var(--primary-font);
+        font-size: 1.4rem;
+    }
+
+    .desktopnavlistlinkhome{
+        color: #E039FD;
+    }
+
+    .singlecardbtnholdernav{
+        width: 12rem;
+    }
+
+    .singlecardbtnnav{
+        width: 90%;
+    }
+
+
+
+    .stepcardholder{
+        flex-direction: row;
+    }
+
+
+    .sectionheaderboxholder{
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .boxbtnholder{
+        margin-top: 4rem;
+    }
+
+
+    .footerholder{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+    .endingholder{
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .secondending{
+        margin-bottom: 0;
+    }
+
+}
+
+@media  (min-width: 1200px) {
+   .header{
+    background-image: url('../images/Main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}
+
+@media  (min-width: 1400px) {
+    .header{
+        background-image: url('../images/Main.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+}
